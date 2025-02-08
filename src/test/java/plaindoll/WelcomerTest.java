@@ -35,8 +35,8 @@ public class WelcomerTest {
         assertThat(welcomer.saySome(), containsString("something"));
     }
 
-    @Test  // Добавить аннотацию @Test
-    public void welcomerSaysDayHunter() {
-        assertThat(welcomer.sayHunter(), containsString("Hunter"));
+    @Test
+    public void welcomerSaysHunterPhrase() {
+        assertThat(welcomer.sayHunterPhrase(), containsString("hunter"));
     }
 }
